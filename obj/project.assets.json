@@ -3667,24 +3667,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mohamed Hamdi\\.nuget\\packages\\": {}
+    "C:\\Users\\Mohamed Hamdi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\courses\\test .net\\mywebapi\\MyWebApi.csproj",
+      "projectUniqueName": "E:\\courses\\test .net\\MyWebApi\\MyWebApi.csproj",
       "projectName": "MyWebApi",
-      "projectPath": "E:\\courses\\test .net\\mywebapi\\MyWebApi.csproj",
+      "projectPath": "E:\\courses\\test .net\\MyWebApi\\MyWebApi.csproj",
       "packagesPath": "C:\\Users\\Mohamed Hamdi\\.nuget\\packages\\",
-      "outputPath": "E:\\courses\\test .net\\mywebapi\\obj\\",
+      "outputPath": "E:\\courses\\test .net\\MyWebApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Mohamed Hamdi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Mohamed Hamdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

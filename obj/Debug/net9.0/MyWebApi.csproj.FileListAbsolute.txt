@@ -54,3 +54,4 @@ E:\courses\test .net\mywebapi\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols
 E:\courses\test .net\mywebapi\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 E:\courses\test .net\mywebapi\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 E:\courses\test .net\mywebapi\bin\Debug\net9.0\BCrypt.Net-Next.dll
+E:\courses\test .net\mywebapi\obj\Debug\net9.0\MyWebApi.sourcelink.json

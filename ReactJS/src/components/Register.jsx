@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/HealthTOM-Logo.png";
 import { useNavigate } from "react-router-dom";
-
+import { Button, Typography,TextField } from "@mui/material";
 export default function Register() {
   localStorage.removeItem("token");
   const [err, setErr] = useState("");
@@ -37,19 +37,45 @@ export default function Register() {
     <>
       <header>
         <img src={logo} alt="logo" />
-        <button onClick={login}>Login</button>
+        <Button variant="outlined" onClick={login}>Login</Button>
       </header>
 
       <div className="login">
-        <h1>Register</h1>
+        <Typography variant="h2" component="h1">
+          Register
+        </Typography>
+        
         <form onSubmit={handleSubmit}>
-          <label htmlFor="">username</label>
-          <input type="text" name="username" id="username" />
-          <label htmlFor="">password</label>
-          <input type="password" name="password" id="password" />
-          <button>submit</button>
+          <TextField
+            sx={{ m: 2 }}
+            variant="outlined"
+            size="small"
+            label="Username"
+            type="text"
+            name="username"
+            id="username"
+            fullWidth
+            required
+            error={err ? true : false}
+          />
+          <TextField
+            sx={{ m: 1 }}
+            type="password"
+            name="password"
+            id="password"
+            variant="outlined"
+            size="small"
+            label="Password"
+            fullWidth
+            required
+            error={err ? true : false}
+            helperText={" " + err}
+          />
+          <Button type="submit" sx={{ m: 2 }} variant="contained">
+            submit
+          </Button>
         </form>
-        <h4>{err} </h4>
+        {/* <h4>{err} </h4> */}
       </div>
     </>
   );

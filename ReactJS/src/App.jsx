@@ -1,9 +1,9 @@
-import Login from './components/Login';
-import WorklistPage from './components/WorklistPage';
-import AddExam from './components/AddExam';
-import ProtectedRoutes from './components/ProtectedRoutes';
-import { Route, Routes } from 'react-router-dom';
-import Register from './components/Register';
+import Login from "./components/Login";
+import WorklistPage from "./components/WorklistPage";
+import AddExam from "./components/AddExam";
+import ProtectedRoutes from "./components/ProtectedRoutes";
+import { Route, Routes } from "react-router-dom";
+import Register from "./components/Register";
 
 function App() {
   return (
@@ -17,14 +17,7 @@ function App() {
           </ProtectedRoutes>
         }
       />
-      <Route
-        path="/register"
-        element={
-          
-            <Register />
-          
-        }
-      />
+      <Route path="/register" element={<Register />} />
       <Route
         path="/addexam"
         element={
@@ -37,4 +30,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
